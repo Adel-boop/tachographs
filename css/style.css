@@ -261,12 +261,13 @@ h2 {
   z-index: 30;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: relative;
 }
 .banner__bg {
   position: absolute;
   left: calc(50% - 345px + 225px);
-  top: calc(50% - 185.5px - 1288.5px);
+  top: calc(50% - 147px - 1285.5px);
   mix-blend-mode: multiply;
   opacity: 0.7;
   max-width: 690px;
@@ -316,7 +317,6 @@ h2 {
   max-width: 619px;
   width: 100%;
   z-index: 10;
-  padding: 10px;
 }
 .banner__img img {
   object-fit: contain;
