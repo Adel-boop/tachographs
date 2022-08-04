@@ -1073,7 +1073,7 @@ h2 {
 }
 
 .animation-title {
-  transform: translate(0, -50%);
+  transform: translate(0, -100%);
   opacity: 0;
   transition: all 0.5s ease 0s;
 }
