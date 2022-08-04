@@ -1131,7 +1131,7 @@ h2 {
 }
 
 .animation-atoll__text-one {
-  transform: translate(0, -50%);
+  transform: translate(0, -100%);
   opacity: 0;
   transition: all 0.4s ease 0s;
 }
@@ -1143,9 +1143,9 @@ h2 {
 }
 
 .animation-atoll__text-two {
-  transform: translate(0, -50%);
+  transform: translate(0, -100%);
   opacity: 0;
-  transition: all 0.8s ease 0s;
+  transition: all 1s ease 0s;
 }
 
 .animation-atoll__text-two._active {
