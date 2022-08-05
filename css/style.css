@@ -104,7 +104,7 @@ body {
 }
 .container__pol {
   position: relative;
-  height: 0vh;
+  height: 100vh;
 }
 
 .call {
@@ -622,7 +622,16 @@ h2 {
   align-items: center;
   color: #292929;
 }
-.footer__row:last-child p:last-child {
+.footer__row:last-child p:last-child a {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-align: center;
+  color: #292929;
+  cursor: pointer;
   border-bottom: 1px solid #292929;
 }
 .footer__name {
@@ -801,7 +810,15 @@ h2 {
   text-align: center;
   color: #292929;
 }
-.form p span {
+.form p a {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-align: center;
+  color: #292929;
   cursor: pointer;
   border-bottom: 1px solid #292929;
 }
@@ -970,7 +987,7 @@ h2 {
 }
 
 .politics {
-  display: none;
+  display: flex;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -996,7 +1013,7 @@ h2 {
   cursor: pointer;
   margin-top: 20px;
 }
-.politics__btn span {
+.politics__btn a {
   font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -1054,6 +1071,9 @@ h2 {
   font-weight: 400;
   font-size: 17px;
   overflow-y: scroll;
+}
+.politics__window p span a {
+  color: #000;
 }
 @media (max-width: 800px) {
   .politics__window p {

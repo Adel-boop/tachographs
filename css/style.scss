@@ -109,7 +109,7 @@ body {
   }
   &__pol {
     position: relative;
-    height: 0vh;
+    height: 100vh;
   }
   //&__bg{
   //  position: absolute;
@@ -608,7 +608,20 @@ h2 {
 
         color: #292929;
         &:last-child {
-          border-bottom: 1px solid #292929;
+          a {
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            /* or 22px */
+
+            text-align: center;
+
+            color: #292929;
+            cursor: pointer;
+            border-bottom: 1px solid #292929;
+          }
         }
       }
     }
@@ -785,7 +798,17 @@ h2 {
     text-align: center;
 
     color: #292929;
-    span {
+    a {
+      font-family: 'Source Sans Pro';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      /* or 22px */
+
+      text-align: center;
+
+      color: #292929;
       cursor: pointer;
       border-bottom: 1px solid #292929;
     }
@@ -971,7 +994,7 @@ h2 {
   background: radial-gradient(50% 50% at 50% 50%, rgba(181, 223, 148, 0.8) 0%, rgba(181, 223, 148, 0) 100%);
 }
 .politics {
-  display: none;
+  display: flex;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -995,7 +1018,7 @@ h2 {
     align-items: center;
     cursor: pointer;
     margin-top: 20px;
-    span {
+    a {
       font-family: 'Source Sans Pro', sans-serif;
       font-style: normal;
       font-weight: 700;
@@ -1055,6 +1078,11 @@ h2 {
     font-weight: 400;
     font-size: 17px;
     overflow-y: scroll;
+    span {
+      a {
+        color: #000;
+      }
+    }
     @media(max-width: 800px) {
       padding-right: 30px;
     }
