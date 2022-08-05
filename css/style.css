@@ -376,6 +376,11 @@ h2 {
   max-width: 508px;
   width: 100%;
 }
+@media (max-width: 768px) {
+  .atoll__text {
+    padding: 10px 0 0 0;
+  }
+}
 .atoll__content {
   display: flex;
   align-items: center;
@@ -549,6 +554,11 @@ h2 {
   max-width: 428px;
   width: 100%;
   padding: 10px;
+}
+@media (max-width: 768px) {
+  .contacts__info {
+    padding: 0px;
+  }
 }
 .contacts ul li {
   font-family: "Source Sans Pro", sans-serif;
