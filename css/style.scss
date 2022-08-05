@@ -1,13 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-//@font-face {
-//  font-family: 'Noah Text', sans-serif;
-//  src: url('../fonts/Noah-Regular.ttf') format('ttf');
-//}
-//
-//@font-face {
-//  font-family: 'TT Norms', sans-serif;
-//  src: url('../fonts/TTNormsRegular.ttf') format('ttf');
-//}
 
 body {
   height: 100vh;
@@ -383,6 +374,9 @@ h2 {
     padding: 10px;
     max-width: 508px;
     width: 100%;
+    @media(max-width: 768px) {
+      padding: 10px 0 0 0;
+    }
   }
   &__content {
     display: flex;
@@ -552,6 +546,9 @@ h2 {
     max-width: 428px;
     width: 100%;
     padding: 10px;
+    @media(max-width: 768px) {
+      padding: 0px;
+    }
   }
   ul {
     li {
