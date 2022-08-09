@@ -1112,94 +1112,142 @@ h2 {
 .animation-title {
   transform: translate(0, -80%);
   opacity: 0;
+  -moz-opacity: 0; /* Firefox and Mozilla browsers */
+  -webkit-opacity: 0; /* WebKit browser e.g. Safari */
+  filter: alpha(opacity=0); /* For IE8 and earlier */
   transition: 0s;
 }
 
 .animation-title._active {
   transform: translate(0, 0);
   opacity: 1;
+  -moz-opacity: 1; /* Firefox and Mozilla browsers */
+  -webkit-opacity: 1; /* WebKit browser e.g. Safari */
+  filter: alpha(opacity=1); /* For IE8 and earlier */
   transition: all 1s ease-in-out;
 }
 
 .animation-list {
   opacity: 0;
+  -moz-opacity: 0; /* Firefox and Mozilla browsers */
+  -webkit-opacity: 0; /* WebKit browser e.g. Safari */
+  filter: alpha(opacity=0); /* For IE8 and earlier */
   transition: 0s;
 }
 
 .animation-list._active {
   opacity: 1;
+  -moz-opacity: 1; /* Firefox and Mozilla browsers */
+  -webkit-opacity: 1; /* WebKit browser e.g. Safari */
+  filter: alpha(opacity=1); /* For IE8 and earlier */
   transition: opacity 4s;
 }
 
 .animation-btn {
   transform: translate(0, 80%);
   opacity: 0;
+  -moz-opacity: 0; /* Firefox and Mozilla browsers */
+  -webkit-opacity: 0; /* WebKit browser e.g. Safari */
+  filter: alpha(opacity=0); /* For IE8 and earlier */
   transition: 0s;
 }
 
 .animation-btn._active {
   transform: translate(0, 0);
   opacity: 1;
+  -moz-opacity: 1; /* Firefox and Mozilla browsers */
+  -webkit-opacity: 1; /* WebKit browser e.g. Safari */
+  filter: alpha(opacity=1); /* For IE8 and earlier */
   transition: all 1s ease-in-out;
 }
 
 .animation-banner {
   transform: translate(120%, 0);
   opacity: 0;
+  -moz-opacity: 0; /* Firefox and Mozilla browsers */
+  -webkit-opacity: 0; /* WebKit browser e.g. Safari */
+  filter: alpha(opacity=0); /* For IE8 and earlier */
   transition: 0s;
 }
 
 .animation-banner._active {
   transform: translate(0, 0);
   opacity: 1;
+  -moz-opacity: 1; /* Firefox and Mozilla browsers */
+  -webkit-opacity: 1; /* WebKit browser e.g. Safari */
+  filter: alpha(opacity=1); /* For IE8 and earlier */
   transition: all 1s ease-in-out;
 }
 
 .animation-atoll-img {
   transform: translate(-120%, 0);
   opacity: 0;
+  -moz-opacity: 0; /* Firefox and Mozilla browsers */
+  -webkit-opacity: 0; /* WebKit browser e.g. Safari */
+  filter: alpha(opacity=0); /* For IE8 and earlier */
   transition: 0s;
 }
 
 .animation-atoll-img._active {
   transform: translate(0, 0);
   opacity: 1;
+  -moz-opacity: 1; /* Firefox and Mozilla browsers */
+  -webkit-opacity: 1; /* WebKit browser e.g. Safari */
+  filter: alpha(opacity=1); /* For IE8 and earlier */
   transition: all 1s ease-in-out;
 }
 
 .animation-atoll__text-one {
   transform: translate(0, 100%);
   opacity: 0;
+  -moz-opacity: 0; /* Firefox and Mozilla browsers */
+  -webkit-opacity: 0; /* WebKit browser e.g. Safari */
+  filter: alpha(opacity=0); /* For IE8 and earlier */
   transition: 0s;
 }
 
 .animation-atoll__text-one._active {
   transform: translate(0, 0);
   opacity: 1;
+  -moz-opacity: 1; /* Firefox and Mozilla browsers */
+  -webkit-opacity: 1; /* WebKit browser e.g. Safari */
+  filter: alpha(opacity=1); /* For IE8 and earlier */
   transition: all 0.8s ease-in-out;
 }
 
 .animation-atoll__text-two {
   transform: translate(0, 100%);
   opacity: 0;
+  -moz-opacity: 0; /* Firefox and Mozilla browsers */
+  -webkit-opacity: 0; /* WebKit browser e.g. Safari */
+  filter: alpha(opacity=0); /* For IE8 and earlier */
   transition: 0s;
 }
 
 .animation-atoll__text-two._active {
   transform: translate(0, 0);
   opacity: 1;
+  -moz-opacity: 1; /* Firefox and Mozilla browsers */
+  -webkit-opacity: 1; /* WebKit browser e.g. Safari */
+  filter: alpha(opacity=1); /* For IE8 and earlier */
   transition: all 1.5s ease-in-out;
 }
 
 .animation-contacts {
   transform: translate(0, 20%);
   opacity: 0;
+  -moz-opacity: 0; /* Firefox and Mozilla browsers */
+  -webkit-opacity: 0; /* WebKit browser e.g. Safari */
+  filter: alpha(opacity=0); /* For IE8 and earlier */
   transition: all 0.8s ease 0s;
 }
 
 .animation-contacts._active {
   transform: translate(0, 0);
   opacity: 1;
+  -moz-opacity: 1; /* Firefox and Mozilla browsers */
+  -webkit-opacity: 1; /* WebKit browser e.g. Safari */
+  filter: alpha(opacity=1); /* For IE8 and earlier */
   transition: all 0.8s ease 0.2s;
 }
 
