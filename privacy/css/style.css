@@ -335,6 +335,7 @@ body {
   padding: 0 15px;
   max-width: 1440px;
   width: 100%;
+  height: 100vh;
 }
 .politics__window h1 {
   max-width: 1090px;

@@ -51,6 +51,13 @@ body {
   left: -698px;
   top: 1080px;
   background: radial-gradient(50% 50% at 50% 50%, #B5DF94 0%, rgba(181, 223, 148, 0) 100%);
+
+}
+@media (min-width: 2500px) {
+  .container__bg {
+    left: 0px;
+  }
+
 }
 @media (max-width: 768px) {
   .container__bg {
@@ -80,6 +87,7 @@ body {
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
+  max-width: 3000px;
 }
 
 .container {
