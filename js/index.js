@@ -1,7 +1,4 @@
 
-if(window.location == 'https://tacho.sotrans.ru/privacy') {
-
-} else {
     let openForm = document.querySelectorAll('.call')
     let closeSucc = document.querySelector('.form__close')
     let closeForm = document.querySelectorAll('.form__cross')
@@ -167,7 +164,7 @@ if(window.location == 'https://tacho.sotrans.ru/privacy') {
     // Open form
 
 
-}
+
 
 
 
